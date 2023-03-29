@@ -14,7 +14,7 @@ Desktop: 1440px
   --color-neutral-very-dark-blue:  hsl(216, 12%, 8%);
   /* Typography Variables */
   --typography-font-size: 15px;
-  --typography-font-family: 'Overpass';
+  --typography-font-family: 'Overpass', sans-serif;
   --typography-font-weight-normal-400: 400;
   --typography-font-weight-bold-700: 700;
 }
