@@ -76,7 +76,7 @@ body {
 }
 
 header {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: var(--color-neutral-white);
 }
 
@@ -86,4 +86,11 @@ p {
 
 button {
   background-color: var(--color-primary-orange);
+  color: var(--color-neutral-white);
+  border: none;
+  border-radius: 25px;
+  height: 3rem;
+  font-family: "Overpass";
+  font-weight: 400;
+  letter-spacing: .1rem;
 }
