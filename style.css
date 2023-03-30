@@ -19,18 +19,19 @@ Desktop: 1440px
   --typography-font-weight-bold-700: 700;
 }
 
-html {
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+html {
   font-size: var(--typography-font-size);
   font-family: var(--typography-font-family);
   font-family: 'Overpass', sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   height: 100vh;
   width: 100vw;
   background-color: var(--color-neutral-very-dark-blue);
