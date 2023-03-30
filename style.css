@@ -21,22 +21,29 @@ Desktop: 1440px
   --typography-font-weight-bold-700: 700;
 }
 
+@font-face {
+  font-family: "Overpass";
+  src: url('./resources/Overpass/Overpass-VariableFont_wght.ttf') format('truetype');
+  /* src: url('./resources/Overpass/Overpass-Italic-VariableFont_wght.ttf') format('truetype'); */
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: var(--typography-font-size);
 }
 
 html {
-  font-size: var(--typography-font-size);
-  font-family: var(--typography-font-family);
-  font-family: 'Overpass', sans-serif;
+
+
 }
 
 body {
   height: 100vh;
   width: 100vw;
   background-color: var(--color-neutral-very-dark-blue);
+  font-family: "Overpass";
 }
 
 .page-container {
@@ -59,7 +66,7 @@ body {
 }
 
 .circle-background {
-  background-color: var(--color-neutral-circle);
+  background-color: var(--color-neutral-medium-grey);
   border-radius: 50%;
   height: 2.5rem;
   width: 2.5rem;
@@ -70,13 +77,11 @@ body {
 
 header {
   font-size: 1.75rem;
-  font-weight: var(--typography-font-weight-bold-700);
   color: var(--color-neutral-white);
 }
 
 p {
-  color: var(--color-neutral-light-grey);
-  font-weight: var(--typography-font-weight-normal-400);
+  color: var(--color-neutral-medium-grey);
 }
 
 button {
