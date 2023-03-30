@@ -23,6 +23,7 @@ html {
   box-sizing: border-box;
   font-size: var(--typography-font-size);
   font-family: var(--typography-font-family);
+  font-family: 'Overpass', sans-serif;
   margin: 0;
   padding: 0;
 
@@ -33,12 +34,14 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: var(--color-neutral-very-dark-blue);
+  overflow: hidden;
 }
 
 .page-container {
   height: 100%;
   width: 100%;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   padding: 15px;
@@ -55,5 +58,11 @@ body {
 
 header {
   font-size: 1.75rem;
+  font-weight: var(--typography-font-weight-bold-700);
   color: var(--color-neutral-white);
+}
+
+p {
+  color: var(--color-neutral-light-grey);
+  font-weight: var(--typography-font-weight-normal-400);
 }
