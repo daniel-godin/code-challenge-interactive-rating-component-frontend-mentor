@@ -91,11 +91,13 @@ input[type="radio"] {
 label:hover {
   background-color: var(--color-primary-orange);
   color: var(--color-neutral-white);
+  transition-duration: 0.25s;
 }
 
 input[type="radio"]:checked + label {
   background-color: var(--color-neutral-medium-grey);
   color: var(--color-neutral-white);
+  transition-duration: 0.25s;
 }
 
 .selected-display {
