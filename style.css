@@ -93,6 +93,11 @@ label:hover {
   color: var(--color-neutral-white);
 }
 
+input[type="radio"]:checked + label {
+  background-color: var(--color-neutral-medium-grey);
+  color: var(--color-neutral-white);
+}
+
 .selected-display {
   background-color: var(--color-neutral-dark-blue-light);
   border-radius: 30px;
@@ -138,7 +143,6 @@ button {
 button:hover {
   background-color: var(--color-neutral-white);
   color: var(--color-primary-orange);
-  /* cursor: pointer; */
 }
 
 button:hover, label:hover {
