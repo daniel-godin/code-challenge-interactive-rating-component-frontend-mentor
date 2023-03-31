@@ -73,14 +73,14 @@ body {
 }
 
 .circle-background {
-  background-color: var(--color-neutral-medium-grey);
+  background-color: var(--color-neutral-dark-blue-light);
   border-radius: 50%;
   height: 2.5rem;
   width: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-neutral-white);
+  color: var(--color-neutral-medium-grey);
   font-size: .8rem;
 }
 
