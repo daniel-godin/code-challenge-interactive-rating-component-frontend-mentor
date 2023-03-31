@@ -125,3 +125,13 @@ button {
   font-weight: 400;
   letter-spacing: .1rem;
 }
+
+button:hover {
+  background-color: var(--color-neutral-white);
+  color: var(--color-primary-orange);
+  cursor: pointer;
+}
+
+button:hover + .circle-background:hover {
+  cursor: pointer;
+}
