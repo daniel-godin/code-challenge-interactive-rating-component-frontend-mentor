@@ -62,7 +62,7 @@ body {
   border-radius: 20px;
   display: flex;
   flex-flow: column nowrap;
-  gap: 15px;
+  gap: 20px;
 }
 
 #thankYouContainer {
