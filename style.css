@@ -10,7 +10,6 @@ Desktop: 1440px
   --color-neutral-white:  hsl(0, 0%, 100%);
   --color-neutral-light-grey:  hsl(217, 12%, 63%);
   --color-neutral-medium-grey:  hsl(216, 12%, 54%);
-  --color-neutral-circle: rgba(38,45,55,255);
   --color-neutral-dark-blue:  hsl(213, 19%, 18%);
   --color-neutral-dark-blue-light:  hsl(213, 19%, 23%);
   --color-neutral-very-dark-blue:  hsl(216, 12%, 8%);
@@ -72,16 +71,26 @@ body {
   text-align: center;
 }
 
+input[type="radio"] {
+  display: none;
+}
+
 .circle-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--color-neutral-medium-grey);
+  font-size: .8rem;
   background-color: var(--color-neutral-dark-blue-light);
   border-radius: 50%;
   height: 2.5rem;
   width: 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-neutral-medium-grey);
-  font-size: .8rem;
+}
+
+label:hover {
+  background-color: var(--color-primary-orange);
+  color: var(--color-neutral-white);
 }
 
 .selected-display {
@@ -110,10 +119,10 @@ p {
   justify-content: space-between;
 }
 
-.rating-button {
+/* .rating-button {
   appearance: none;
   color: white;
-}
+} */
 
 button {
   background-color: var(--color-primary-orange);
@@ -129,9 +138,9 @@ button {
 button:hover {
   background-color: var(--color-neutral-white);
   color: var(--color-primary-orange);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
-button:hover + .circle-background:hover {
+button:hover, label:hover {
   cursor: pointer;
 }
