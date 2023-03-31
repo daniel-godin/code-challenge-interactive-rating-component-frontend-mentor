@@ -145,6 +145,7 @@ button {
 button:hover {
   background-color: var(--color-neutral-white);
   color: var(--color-primary-orange);
+  transition-duration: 0.25s;
 }
 
 button:hover, label:hover {
